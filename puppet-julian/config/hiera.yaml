@@ -1,0 +1,8 @@
+---
+:backends: yaml
+:yaml:
+  :datadir: /srv/html/puppet/config/hieradata
+:hierarchy: 
+  - "%{::osfamily}"
+  - common
+:logger: console
